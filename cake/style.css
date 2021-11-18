@@ -1,0 +1,37 @@
+#main-header {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 61px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/purple-flowers-in-field-royalty-free-image-1589279512.jpg?crop=1.00xw:0.753xh;0,0.0587xh&resize=1200:*");
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+    padding-top: 15px;
+  }
+  .card {
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 5px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+  }
+  .navbar {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:link,
+  a:visited {
+    color: #1a0dab;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  

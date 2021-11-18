@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <title>Class Cakes Page</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="main-header">BT Bakes</h1>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Classic bakes</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.cakestoday.co.uk/cakes/novelty-cakes.html"
+                  >Novelty Cakes</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.bbc.com/news/uk-england-beds-bucks-herts-59312314"
+                  >Cake of the week</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Recipes
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.berries.com/blog/best-cupcake-recipes"
+                      >Cupcake Recipes</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.allrecipes.com/recipe/230482/banana-chocolate-chip-bread/"
+                      >Banana Choc Bread</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://tasty.co/recipe/the-best-chewy-chocolate-chip-cookies"
+                      >Cookie Recipes</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.bbc.com/news/topics/c66qqlppdg4t/baking"
+                      >Baking news</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li> -->
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <h1>Baking for all occasions</h1>
+    <main>
+      <!-- CARDS: cake options -->
+      <!-- CARD 1:  -->
+      <section class="container">
+        <div class="row">
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="card border-info" style="width: 18rem">
+              <img
+                src="data:image/jpeg;base64,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...
